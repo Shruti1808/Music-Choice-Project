@@ -1,4 +1,10 @@
 export class Genre {
-    public genreName : string, public genreId: number, public genreArtist: string
+    public genreId: number;
+    public static idCounter: number = 1;
+
+    constructor(public genreName: string) {
+        this.genreId = Genre.idCounter;
+        Genre.idCounter++
+    }
 
 }
