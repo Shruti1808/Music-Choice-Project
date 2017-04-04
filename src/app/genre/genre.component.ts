@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import { Genre } from '../genre.model';
 
 @Component({
   selector: 'app-genre',
@@ -7,6 +8,6 @@ import { Component } from '@angular/core';
 })
 export class GenreComponent  {
 
-  
+
 
 }

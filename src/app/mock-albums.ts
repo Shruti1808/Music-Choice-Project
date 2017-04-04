@@ -1,4 +1,4 @@
-import { Albums } from './album.model';
+import { Album } from './album.model';
 
 export let ALBUMS: Album[] = [
 
