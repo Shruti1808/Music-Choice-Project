@@ -1,3 +1,16 @@
 <p>
   genre works! YAYAYYAA!
 </p>
+
+
+<div class="panel panel-default">
+    <div class="genre-list" *ngFor= "let genre of genreList" (click)= goToArtistPage(genre)>
+<ul>
+    <li>{{genre.genreName}}<router-outlet></router-outlet>
+</li>
+</ul>
+<router-outlet></router-outlet>
+
+
+    </div>
+</div>

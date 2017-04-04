@@ -1,9 +1,9 @@
 export class Genre {
-    public genreId: number;
+    public id: number;
     public static idCounter: number = 1;
 
     constructor(public genreName: string) {
-        this.genreId = Genre.idCounter;
+        this.id = Genre.idCounter;
         Genre.idCounter++
     }
 

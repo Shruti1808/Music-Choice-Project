@@ -1,9 +1,9 @@
 export class Artist {
-    public artistId: number;
+    public id: number;
     public static idCounter: number = 1;
 
-    constructor(public artistName: string) {
-        this.artistId = Artist.idCounter;
+    constructor(public artistName: string, public genreConId: number) {
+        this.id = Artist.idCounter;
         Artist.idCounter++
     }
 
